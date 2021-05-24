@@ -10,6 +10,8 @@ If you purchase 3 cartons or more, you will receive a 10% discount off the carto
 
 
 Spring Boot App ( Back end)------------Price_Engine_99x/priceEngine
+
 Database-------------------------------priceengine.sql
+
 Front end application------------------Price_Engine_99x/priceEngineAngular
 
