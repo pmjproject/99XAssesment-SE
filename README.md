@@ -1,4 +1,4 @@
-99XAssesment-SE
+
 99x Assessment - SE Position
 
 This is the answer for the assessment that given by 99x technologies for the position full stack SSE. This assessment is on develop small calculator to calculate the price that customer purchased. According to the assessment the price structures are bellow.
