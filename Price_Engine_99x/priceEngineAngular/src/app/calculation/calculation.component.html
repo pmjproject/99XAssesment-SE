@@ -1,0 +1,51 @@
+<div class="container">
+    <form (ngSubmit)="onSubmit(calculations)" #calculations="ngForm">
+
+        <div class="card-header" style="width: 50rem;">
+            <strong> Calculations</strong>
+        </div>
+        <div class="card" style="width: 50rem; height:10rem;margin-top: 25px; background-color: rgb(198, 216, 210);">
+
+            <div class="form-row">
+
+                <div class="form-group col-md-4">
+                    <label for="inputState">Product</label>
+                    <select id="inputState" class="form-control" name="productId" [(ngModel)]="product.productId">
+                        <!-- <option selected>Choose...</option> -->
+                        <option value="1">Penguin-ears</option>
+                        <option value="2">Horseshoe</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputCity">Carton</label>
+                    <input type="text" class="form-control" id="inputCity" name="carton" [(ngModel)]="product.carton">
+
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputCity">Single Units</label>
+                    <input type="text" class="form-control" id="inputCity" name="sUnits" [(ngModel)]="product.sUnits">
+                </div>
+
+
+
+
+            </div>
+            <div class="form-row">
+
+
+                <div class="form-group col-md-6">
+                    <label for="inputCity"></label>
+                    <button type="submit" class="btn btn-primary" (click)="clickEvent()">Calculate Total
+                        Price</button>&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-primary" type="reset">Reset</button>
+                </div>
+                <div class="form-group col-md-6">
+                    <span>{{msg}}{{data}}</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </form>
+</div>
